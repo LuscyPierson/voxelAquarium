@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+		5862A112560713310924BDBD = {
+			isa = PBXBuildFile;
+			fileRef = 18A4FEEE50F9B5AB81BD7971;
+			settings = {
+				ATTRIBUTES = (
+					RemoveHeadersOnCopy,
+				);
+			};
+		};
+		E5D5E092EF6F929627BA6054 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595;
+			proxyType = 1;
+			remoteGlobalIDString = D627CACEBFAAA465612B83CD;
+			remoteInfo = AquariumWidget;
+		};
+		6B461CD41EA51ABC93F86EC9 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5862A112560713310924BDBD,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090DE078A1FC49285388B887 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = Widget.entitlements;
+			sourceTree = "<group>";
+		};
+		18A4FEEE50F9B5AB81BD7971 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.app-extension";
+			includeInIndex = 0;
+			path = AquariumWidget.appex;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		984436B178B1DDBA6BFBC547 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = "Widget-Info.plist";
+			sourceTree = "<group>";
+		};
+		996AD237BC284D463E664FFE = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = "Voxel Aquarium.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E8CD20030D436FD3E0A2E391 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = "App-Info.plist";
+			sourceTree = "<group>";
+		};
+		F7799C5FD37D5A260F6A49D4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = App.entitlements;
+			sourceTree = "<group>";
+		};
+		721FEBA5BCBB1F89C30DC44B = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = App;
+			sourceTree = "<group>";
+		};
+		9D11589BE8EF81E049105716 = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		B51D13789FB3FEA0D62449FD = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0F87A878AEB94E823836E22B = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2459633578009F3E492FB24 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DC27D9F8E3B109C877BFC4 = {
+			isa = PBXGroup;
+			children = (
+				721FEBA5BCBB1F89C30DC44B,
+				B51D13789FB3FEA0D62449FD,
+				9D11589BE8EF81E049105716,
+				D5B807729C9161D8C6C93C82,
+				72A79544FC4DD10045022645,
+			);
+			sourceTree = "<group>";
+		};
+		72A79544FC4DD10045022645 = {
+			isa = PBXGroup;
+			children = (
+				996AD237BC284D463E664FFE,
+				18A4FEEE50F9B5AB81BD7971,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5B807729C9161D8C6C93C82 = {
+			isa = PBXGroup;
+			children = (
+				E8CD20030D436FD3E0A2E391,
+				984436B178B1DDBA6BFBC547,
+				F7799C5FD37D5A260F6A49D4,
+				090DE078A1FC49285388B887,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D627CACEBFAAA465612B83CD = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE17A411699488FA4B651656;
+			buildPhases = (
+				E2F56E4F641B0C97C58C11A5,
+				F2459633578009F3E492FB24,
+				8894B6517AEC09E6A28B351A,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B51D13789FB3FEA0D62449FD,
+				9D11589BE8EF81E049105716,
+			);
+			name = AquariumWidget;
+			productName = AquariumWidget;
+			productReference = 18A4FEEE50F9B5AB81BD7971;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F01C2E624E08A72BC055B46F = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3138618C87BE6F39E8AF296;
+			buildPhases = (
+				6B366E3A6159DC0A46CE6169,
+				0F87A878AEB94E823836E22B,
+				34E903FB6EA77173817200D0,
+				6B461CD41EA51ABC93F86EC9,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				697C6CE515FCA105619BE40C,
+			);
+			fileSystemSynchronizedGroups = (
+				721FEBA5BCBB1F89C30DC44B,
+				B51D13789FB3FEA0D62449FD,
+			);
+			name = VoxelAquarium;
+			productName = VoxelAquarium;
+			productReference = 996AD237BC284D463E664FFE;
+			productType = "com.apple.product-type.application";
+		};
+		46F86FAA6BBF9AC94A7E4595 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = D90B98AFE91CA74B41E200B7;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71DC27D9F8E3B109C877BFC4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 72A79544FC4DD10045022645;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F01C2E624E08A72BC055B46F,
+				D627CACEBFAAA465612B83CD,
+			);
+		};
+		34E903FB6EA77173817200D0 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8894B6517AEC09E6A28B351A = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B366E3A6159DC0A46CE6169 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F56E4F641B0C97C58C11A5 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697C6CE515FCA105619BE40C = {
+			isa = PBXTargetDependency;
+			target = D627CACEBFAAA465612B83CD;
+			targetProxy = E5D5E092EF6F929627BA6054;
+		};
+		3364EDEBD260CBF339B52DD5 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				DEVELOPMENT_TEAM = 4BD53JYD4T;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				MARKETING_VERSION = 2.0;
+				CURRENT_PROJECT_VERSION = 1;
+				PRODUCT_NAME = "Voxel Aquarium";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piersonluscy.voxelaquarium;
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Voxel Aquarium";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/App.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+			};
+			name = Release;
+		};
+		5CD193DFD8A5008B34863530 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				DEVELOPMENT_TEAM = 4BD53JYD4T;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				MARKETING_VERSION = 2.0;
+				CURRENT_PROJECT_VERSION = 1;
+				PRODUCT_NAME = "Voxel Aquarium";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piersonluscy.voxelaquarium;
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Voxel Aquarium";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/App.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+			};
+			name = Debug;
+		};
+		5E1134544568A0C1B09E583D = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				GCC_OPTIMIZATION_LEVEL = 0;
+			};
+			name = Debug;
+		};
+		7A720E692FD833D55A462C47 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				DEVELOPMENT_TEAM = 4BD53JYD4T;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				MARKETING_VERSION = 2.0;
+				CURRENT_PROJECT_VERSION = 1;
+				PRODUCT_NAME = AquariumWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piersonluscy.voxelaquarium.widget;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Voxel Aquarium";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				CODE_SIGN_ENTITLEMENTS = Config/Widget.entitlements;
+				SKIP_INSTALL = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+			};
+			name = Release;
+		};
+		B3AFDE6F970A0432673383DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				ENABLE_NS_ASSERTIONS = NO;
+			};
+			name = Release;
+		};
+		E02455AB57D1D664BAE6205B = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				DEVELOPMENT_TEAM = 4BD53JYD4T;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				MARKETING_VERSION = 2.0;
+				CURRENT_PROJECT_VERSION = 1;
+				PRODUCT_NAME = AquariumWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piersonluscy.voxelaquarium.widget;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Voxel Aquarium";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				CODE_SIGN_ENTITLEMENTS = Config/Widget.entitlements;
+				SKIP_INSTALL = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+			};
+			name = Debug;
+		};
+		C3138618C87BE6F39E8AF296 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD193DFD8A5008B34863530,
+				3364EDEBD260CBF339B52DD5,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90B98AFE91CA74B41E200B7 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1134544568A0C1B09E583D,
+				B3AFDE6F970A0432673383DD,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE17A411699488FA4B651656 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02455AB57D1D664BAE6205B,
+				7A720E692FD833D55A462C47,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595;
+}
